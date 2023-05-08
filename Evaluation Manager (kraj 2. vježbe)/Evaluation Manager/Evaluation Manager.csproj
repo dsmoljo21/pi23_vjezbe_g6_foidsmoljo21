@@ -56,11 +56,17 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmStudents.cs">
+    <Compile Include="FrmEvaluation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmStudents.Designer.cs">
-      <DependentUpon>FrmStudents.cs</DependentUpon>
+    <Compile Include="FrmEvaluation.Designer.cs">
+      <DependentUpon>FrmEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudent.Designer.cs">
+      <DependentUpon>FrmStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\Person.cs" />
@@ -72,8 +78,11 @@
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmStudents.resx">
-      <DependentUpon>FrmStudents.cs</DependentUpon>
+    <EmbeddedResource Include="FrmEvaluation.resx">
+      <DependentUpon>FrmEvaluation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudent.resx">
+      <DependentUpon>FrmStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

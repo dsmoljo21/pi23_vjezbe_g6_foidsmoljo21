@@ -1,6 +1,6 @@
 ﻿namespace Evaluation_Manager
 {
-    partial class FrmStudents
+    partial class FrmEvaluation
     {
         /// <summary>
         /// Required designer variable.
